@@ -1,6 +1,6 @@
 'use strict'
 
-const { FuseBox, VuePlugin, WebIndexPlugin } = require('fuse-box')
+const { FuseBox, VuePlugin, WebIndexPlugin, Sparky } = require('fuse-box')
 
 const fsbx = FuseBox.init({
     homeDir: './src',
@@ -11,6 +11,11 @@ const fsbx = FuseBox.init({
     ]
 })
 
+Sparky.task('copyAssets', () => {
+    return Sparky.watch('./assets', { base: './src' })
+        .dest('./dist')
+})
+
 fsbx.dev()
 
 fsbx.bundle('app.js')
@@ -18,3 +23,4 @@ fsbx.bundle('app.js')
     .watch()
 
 fsbx.run()
+Sparky.start('copyAssets')
