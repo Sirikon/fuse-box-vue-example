@@ -1,5 +1,6 @@
 'use strict'
 
+import './style/main.scss'
 import * as Vue from 'vue/dist/vue.js'
 import * as App from './components/App.vue'
 
