@@ -11,7 +11,7 @@ const fsbx = FuseBox.init({
     ]
 })
 
-Sparky.task('copyAssets', () => {
+Sparky.task('default', () => {
     return Sparky.watch('./assets', { base: './src' })
         .dest('./dist')
 })
@@ -23,4 +23,3 @@ fsbx.bundle('app.js')
     .watch()
 
 fsbx.run()
-Sparky.start('copyAssets')
