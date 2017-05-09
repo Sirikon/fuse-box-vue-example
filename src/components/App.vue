@@ -2,7 +2,7 @@
     <div class="fb-app">
         <div class="fb-app-content">
             <div class="fb-app-logos-container">
-                <img class="fb-app-logo" src="./assets/fusebox-logo.png" />
+                <img class="fb-app-logo is-fusebox" src="./assets/fusebox-logo.png" />
                 <img class="fb-app-heart" src="./assets/heart.png" />
                 <img class="fb-app-logo" src="./assets/vue-logo.png" />
             </div>

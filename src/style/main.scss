@@ -24,6 +24,10 @@
     &-logo {
         display: block;
         width: 145px;
+
+        &.is-fusebox {
+            margin-right: 13px;
+        }
     }
 
     &-heart {
