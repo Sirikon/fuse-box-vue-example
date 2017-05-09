@@ -19,7 +19,7 @@
   "homepage": "https://github.com/Sirikon/fuse-box-vue-example#readme",
   "dependencies": {
     "bulma": "^0.4.1",
-    "fuse-box": "2.0.0-beta.21",
+    "fuse-box": "2.0.0-beta.22",
     "node-sass": "^4.5.2",
     "typescript": "^2.3.2",
     "vue": "~2.3.2",
