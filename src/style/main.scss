@@ -14,10 +14,20 @@
         padding-bottom: 20px;
     }
 
+    &-logos-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
     &-logo {
         display: block;
-        margin: auto;
-        width: 150px;
+        width: 145px;
+    }
+
+    &-heart {
+        width: 75px;
     }
 
     &-title {
